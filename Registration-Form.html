@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            td{
+                padding-right: 10px;
+                padding-bottom:15px;
+                
+            }
+            body{
+                margin-left:250px ; 
+                margin-right:250px ;  
+                color:white; 
+                background-image:url('newgeeksforgeeks.jpg') ;
+            }
+            h1{
+                text-align:center; color:green; background-color:white;
+            }                      
+            </style>
+        <title>REGISTRATION FORM(geeksforgeeks)</title>
+        </head>
+    <body>
+        <h1><b><u>REGISTRATION FORM</u></b></h1>
+        <fieldset style="background-color:rgb(73, 179, 87);" >
+            <table >
+                <legend ><strong>Required Details :</strong></legend>              
+               <tr>
+                   <td><b>First Name :</b></td>
+                   <td><input type="text" placeholder="Enter your name" id="fname" name="First Name"> </td>
+               </tr>
+                     
+               <tr>
+                   <td><b>Last Name :</b></td><br>
+                   <td><input type="text" placeholder="Enter your surname" id="lname" name="Last Name" ></td>
+               </tr>
+
+               <tr>
+                   <td><b>Age :</b></td>
+                   <td><input type="number" placeholder="Enter your Age" id="Age" name="Age"  ></td>
+               </tr>
+
+               <tr>
+                <td><b>DOB :</b></td>
+                <td><input type="date" placeholder="dd-mm-yyyy" id="Bdate" name="Bdate"  ></td>
+               </tr>
+
+               <tr>
+                   <td><b>Address :</b></td>
+                   <td><textarea id="Address" name="Address" rows="5" cols="35"></textarea></td>
+               </tr>
+               
+               <tr>
+                   <td><b>Email :</b></td>
+                   <td><input type="email" placeholder="Enter your email" id="email" name="email" ></td>
+               </tr>
+               
+               <tr>
+                   <td><b>State :</b></td>
+                   <td><input type="text" placeholder="Enter your State" id="State" name="State"  ></td>
+               </tr>
+
+               <tr>
+                   <td><b>City :</b></td>
+                   <td><input type="text" placeholder="Enter your City" id="City" name="City"  ></td>
+               </tr>
+
+               <tr>
+                   <td><b>Pincode :</b></td>
+                   <td><input type="text" placeholder="Enter your Pincode" id="Pincode" name="Pincode"  maxlength="6" ></td>
+               </tr>
+
+               <tr>
+                   <td><b>Interested in :</b></td>
+                   <td>
+                       <input type="checkbox" name="Interested in" >C++</input>
+                       <input type="checkbox" name="Interested in" >Java</input>
+                       <input type="checkbox" name="Interested in" >#C</input>
+                       <input type="checkbox" name="Interested in" >Javascript</input>
+                       <input type="checkbox" name="Interested in" >SQL</input>
+                       <input type="checkbox" name="Interested in" >HTML</input>
+                       <input type="checkbox" name="Interested in" >CSS</input>
+                   </td>                            
+               </tr>           
+        </table>
+        
+        <h5 style="text-align: center;">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </h5>
+        
+        </fieldset>
+        </body>    
+
+    </html>
